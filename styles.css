@@ -47,3 +47,33 @@ body {
 	margin-bottom: 0;
 }
 /*  url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg")  */
+.companies {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.company {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.company img {
+	width: 200px;
+	height: auto;
+}
+.company span {
+	padding: 5px;
+	min-width: 240px;
+	font-weight: bold;
+	text-align: center;
+}
+.content h4 {
+	margin-bottom: 20px;
+	font-size: 22px;
+}
+#portfolio {
+	min-height: 500px;
+	margin: auto;
+	padding-top: 70px;
+}
