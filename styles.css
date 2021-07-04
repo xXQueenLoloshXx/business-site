@@ -1,5 +1,7 @@
 body {
 	font-family: 'Lexend Mega';
+	color: black;
+	text-align: center;
 }
 
 .header {
@@ -7,6 +9,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding-bottom: 20px;
 }
 .header h1 {
 	font-size: 44px;
@@ -22,3 +25,25 @@ body {
 	justify-content: space-around;
 	width: 80%;
 }
+.mission {
+	background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg");
+	height: 300px;
+	padding-top: 35px;
+	display: flex;
+}
+.mission .content {
+	margin: auto;
+	background: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+}
+.content h2 {
+	font-size: 33px;
+	margin-top: 0;
+}
+.content h4 {
+	font-size: 22px;
+	margin-bottom: 0;
+}
+/*  url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg")  */
