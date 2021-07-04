@@ -110,3 +110,22 @@ p {
 .teammate p {
 	font-size: 22px;
 }
+
+.contact h2 {
+	font-size: 33px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.contact h5 {
+	font-size: 18px;
+	color: black;
+}
+.contact h5 a {
+	font-size: 18px;
+	color: black;
+}
+
+.copyright {
+	padding-top: 50px;
+	font-size: 18px;
+}
